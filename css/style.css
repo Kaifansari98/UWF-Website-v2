@@ -9308,3 +9308,58 @@ textarea.form-control {
 .cause-entry-new .progress-bar {
   border-radius: 4px;
 }
+
+/* Success Stories Page */
+.success-stat-banner {
+  background: linear-gradient(135deg, #1a73e8, #0d47a1);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 32px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.5px;
+}
+.success-stat-banner i {
+  font-size: 28px;
+  color: #ffd54f;
+}
+.story-card {
+  background: #fff;
+  border-left: 5px solid var(--accent, #1a73e8);
+  border-radius: 10px;
+  padding: 28px 24px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.story-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 32px rgba(0,0,0,0.13);
+}
+.story-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: var(--accent, #1a73e8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.story-icon i {
+  font-size: 24px;
+  color: #fff;
+}
+.story-card p {
+  margin: 0;
+  font-size: 15px;
+  color: #444;
+  line-height: 1.7;
+}
+.story-card p strong {
+  color: #1a73e8;
+}
