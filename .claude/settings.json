@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sed -i '' 's/#78d5ef/#1a73e8/g' /Users/kaif/Downloads/uwf-site/css/style.css)",
+      "Bash(sed -i '' 's/#56caeb/#1565c0/g' /Users/kaif/Downloads/uwf-site/css/style.css)",
+      "Bash(sed -i '' 's/#4ac7ea/#1558a0/g' /Users/kaif/Downloads/uwf-site/css/style.css)",
+      "Bash(sed -i '' 's/#3fc3e8/#134f96/g' /Users/kaif/Downloads/uwf-site/css/style.css)",
+      "Bash(sed -i '' 's/rgba\\(120, 213, 239,/rgba\\(26, 115, 232,/g' /Users/kaif/Downloads/uwf-site/css/style.css)",
+      "Bash(sed -i '' 's/#f97f51/#1a73e8/g' /Users/kaif/Downloads/uwf-site/css/style.css)",
+      "Bash(sed -i '' 's/#e55a2b/#1565c0/g' /Users/kaif/Downloads/uwf-site/css/style.css)",
+      "Bash(sed -i '' 's/#fff3ee/#e8f0fe/g' /Users/kaif/Downloads/uwf-site/css/style.css)"
+    ]
+  }
+}
