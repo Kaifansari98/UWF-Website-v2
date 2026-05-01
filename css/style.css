@@ -9200,3 +9200,47 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+/* Member Cards - Our Organization */
+.member-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+.member-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.14);
+}
+.member-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #f97f51;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.member-avatar span {
+  font-size: 28px;
+  color: #fff;
+}
+.member-name {
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+.member-position {
+  display: inline-block;
+  background: #fff3ee;
+  color: #f97f51;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 12px;
+  border-radius: 20px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
