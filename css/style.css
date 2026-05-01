@@ -9363,3 +9363,155 @@ textarea.form-control {
 .story-card p strong {
   color: #1a73e8;
 }
+
+/* Donate Page */
+.donate-appeal-main {
+  font-size: 20px;
+  color: #1a73e8;
+  font-style: italic;
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+.donate-appeal-sub {
+  font-size: 17px;
+  color: #1565c0;
+  font-weight: 500;
+}
+.donate-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 6px 28px rgba(0,0,0,0.10);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.donate-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 40px rgba(0,0,0,0.14);
+}
+.donate-card-header {
+  background: linear-gradient(135deg, #1a73e8, #0d47a1);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 18px 24px;
+  display: flex;
+  align-items: center;
+}
+.donate-card-header i {
+  font-size: 22px;
+}
+.donate-card-body {
+  padding: 24px;
+}
+.donate-intro {
+  color: #555;
+  font-size: 13px;
+  margin-bottom: 14px;
+}
+.donate-org-name {
+  color: #1a73e8;
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 18px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+.donate-detail-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.donate-detail-row:last-of-type {
+  border-bottom: none;
+}
+.donate-label {
+  min-width: 110px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-top: 2px;
+}
+.donate-label i {
+  font-size: 15px;
+  color: #1a73e8;
+}
+.donate-value {
+  font-size: 14px;
+  color: #2c3e50;
+  line-height: 1.5;
+}
+.donate-value a {
+  color: #1a73e8;
+  word-break: break-all;
+}
+.donate-highlight {
+  font-weight: 700;
+  font-size: 16px;
+  color: #0d47a1;
+  letter-spacing: 1px;
+}
+.donate-badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.donate-badge-warning {
+  background: #e53935;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+.donate-badge-blue {
+  background: linear-gradient(135deg, #1a73e8, #0d47a1);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+.donate-qr-wrap {
+  display: flex;
+  justify-content: center;
+}
+.donate-qr-img {
+  width: 200px;
+  height: 200px;
+  border: 3px solid #e8f0fe;
+  border-radius: 12px;
+  object-fit: contain;
+}
+.donate-upi-box {
+  background: #e8f0fe;
+  border-radius: 8px;
+  padding: 12px 20px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.donate-upi-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: #1a73e8;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.donate-upi-id {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0d47a1;
+  letter-spacing: 0.5px;
+}
+.donate-bank-name {
+  font-size: 13px;
+  color: #555;
+}
