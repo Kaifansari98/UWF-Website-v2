@@ -65,72 +65,147 @@
     </div>
 
     
-    <section class="ftco-section bg-light">
+    <!-- Appeal Banner -->
+    <section class="donate-appeal-section">
+      <div class="container">
+        <div class="donate-appeal-banner ftco-animate">
+          <div class="donate-appeal-logo">
+            <img src="images/added_onces/uwflogo.jpeg" alt="UWF Logo">
+            <div>
+              <div class="donate-appeal-orgname">United Welfare Foundation</div>
+              <div class="donate-appeal-regd">Regd. F/39715 | THANE (Maharashtra, India)</div>
+            </div>
+          </div>
+          <div class="donate-appeal-divider"></div>
+          <div class="donate-appeal-text">
+            <p class="donate-appeal-main">Humble Appeal to support <strong>Education of needy children</strong>, <strong>Medical Aid Assistance</strong> &amp; <strong>Marriage of orphan sisters</strong></p>
+            <p class="donate-appeal-sub">Your valuable <strong>Zaka'at, Sadaqah &amp; Donations</strong> are also most welcome.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <section class="donate-trust-section">
+      <div class="container">
+        <div class="donate-trust-row ftco-animate">
+          <div class="donate-trust-item">
+            <i class="ion-ios-checkmark-circle"></i>
+            <span>Registered NGO</span>
+          </div>
+          <div class="donate-trust-divider"></div>
+          <div class="donate-trust-item">
+            <i class="ion-ios-ribbon"></i>
+            <span>80G Tax Exemption</span>
+          </div>
+          <div class="donate-trust-divider"></div>
+          <div class="donate-trust-item">
+            <i class="ion-ios-ribbon"></i>
+            <span>12A Certified</span>
+          </div>
+          <div class="donate-trust-divider"></div>
+          <div class="donate-trust-item">
+            <i class="ion-ios-lock"></i>
+            <span>100% Transparent</span>
+          </div>
+          <div class="donate-trust-divider"></div>
+          <div class="donate-trust-item">
+            <i class="ion-ios-heart"></i>
+            <span>Every Rupee Counts</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Payment Methods -->
+    <section class="ftco-section" style="padding-top: 3em; background: #f4f7fb;">
       <div class="container">
 
-        <!-- Appeal text -->
-        <div class="row justify-content-center mb-5">
-          <div class="col-md-8 text-center ftco-animate">
-            <p class="donate-appeal-main">Humble Appeal to support <strong>Education of needy children</strong>,<br><strong>Medical Aid Assistance</strong> &amp; <strong>Marriage of orphan sisters</strong></p>
-            <p class="donate-appeal-sub">Your valuable <strong>Zaka'at, Sadaqah &amp; Donations</strong> are also welcome.</p>
+        <div class="row justify-content-center mb-4">
+          <div class="col-md-7 text-center ftco-animate">
+            <h2 class="donate-section-title">Choose How to Donate</h2>
+            <p class="donate-section-sub">Forward your contribution directly — every donation reaches those in need.</p>
           </div>
         </div>
 
-        <!-- Two payment cards -->
         <div class="row justify-content-center">
 
           <!-- Bank Transfer Card -->
-          <div class="col-md-5 mb-4 ftco-animate">
-            <div class="donate-card h-100">
-              <div class="donate-card-header">
-                <i class="ion-ios-card mr-2"></i> Bank Transfer
+          <div class="col-lg-5 col-md-6 mb-4 ftco-animate">
+            <div class="donate-pay-card h-100">
+              <div class="donate-pay-header bank">
+                <div class="donate-pay-icon"><i class="ion-ios-card"></i></div>
+                <div>
+                  <div class="donate-pay-title">Bank Transfer</div>
+                  <div class="donate-pay-subtitle">Direct account deposit</div>
+                </div>
               </div>
-              <div class="donate-card-body">
-                <p class="donate-intro">Join us today and forward your valuable contribution to:</p>
-                <h5 class="donate-org-name">UNITED WELFARE FOUNDATION</h5>
-                <div class="donate-detail-row">
-                  <span class="donate-label"><i class="ion-ios-business"></i> Bank</span>
-                  <span class="donate-value">Kokan Mercantile Cooperative Bank Ltd., Nerul Branch</span>
+              <div class="donate-pay-body">
+                <p class="donate-pay-intro">Join us and forward your contribution to:</p>
+                <div class="donate-org-pill">UNITED WELFARE FOUNDATION</div>
+
+                <div class="donate-field">
+                  <div class="donate-field-label"><i class="ion-ios-business"></i> Bank Name</div>
+                  <div class="donate-field-value">Kokan Mercantile Cooperative Bank Ltd., Nerul Branch</div>
                 </div>
-                <div class="donate-detail-row">
-                  <span class="donate-label"><i class="ion-ios-card"></i> Account No.</span>
-                  <span class="donate-value donate-highlight">7501 5100 1001 758</span>
+                <div class="donate-field copyable">
+                  <div class="donate-field-label"><i class="ion-ios-keypad"></i> Account Number</div>
+                  <div class="donate-field-value-wrap">
+                    <span class="donate-field-value mono" id="accNo">7501 5100 1001 758</span>
+                    <button class="donate-copy-btn" onclick="copyText('accNo', this)" title="Copy">
+                      <i class="ion-ios-copy"></i>
+                    </button>
+                  </div>
                 </div>
-                <div class="donate-detail-row">
-                  <span class="donate-label"><i class="ion-ios-barcode"></i> IFSC Code</span>
-                  <span class="donate-value donate-highlight">KKBK0KMCB02</span>
+                <div class="donate-field copyable">
+                  <div class="donate-field-label"><i class="ion-ios-barcode"></i> IFSC Code</div>
+                  <div class="donate-field-value-wrap">
+                    <span class="donate-field-value mono" id="ifscCode">KKBK0KMCB02</span>
+                    <button class="donate-copy-btn" onclick="copyText('ifscCode', this)" title="Copy">
+                      <i class="ion-ios-copy"></i>
+                    </button>
+                  </div>
                 </div>
-                <div class="donate-detail-row">
-                  <span class="donate-label"><i class="ion-ios-mail"></i> Email</span>
-                  <span class="donate-value"><a href="mailto:united_welfare_foundation@outlook.com">united_welfare_foundation@outlook.com</a></span>
+                <div class="donate-field">
+                  <div class="donate-field-label"><i class="ion-ios-mail"></i> Email</div>
+                  <div class="donate-field-value"><a href="mailto:united_welfare_foundation@outlook.com">united_welfare_foundation@outlook.com</a></div>
                 </div>
-                <div class="donate-badge-row mt-3">
-                  <span class="donate-badge-warning">Local Indian Bank Transfers only</span>
-                  <span class="donate-badge-blue">Tax Exemption Certified — Forms 80G &amp; 12A</span>
+
+                <div class="donate-note-row">
+                  <span class="donate-note-red"><i class="ion-ios-alert"></i> Local Indian Bank Transfers only</span>
                 </div>
               </div>
             </div>
           </div>
 
           <!-- UPI Card -->
-          <div class="col-md-5 mb-4 ftco-animate">
-            <div class="donate-card h-100">
-              <div class="donate-card-header">
-                <i class="ion-ios-phone-portrait mr-2"></i> UPI / QR Payment
+          <div class="col-lg-5 col-md-6 mb-4 ftco-animate">
+            <div class="donate-pay-card h-100">
+              <div class="donate-pay-header upi">
+                <div class="donate-pay-icon"><i class="ion-ios-phone-portrait"></i></div>
+                <div>
+                  <div class="donate-pay-title">UPI / QR Code</div>
+                  <div class="donate-pay-subtitle">Instant digital payment</div>
+                </div>
               </div>
-              <div class="donate-card-body text-center">
-                <p class="donate-intro mb-3">Scan the QR code or use the UPI ID below to donate instantly.</p>
-                <div class="donate-qr-wrap">
+              <div class="donate-pay-body text-center">
+                <p class="donate-pay-intro">Scan the QR or copy the UPI ID to pay instantly.</p>
+                <div class="donate-qr-frame">
                   <img src="images/added_onces/qr_code.jpeg" alt="UPI QR Code" class="donate-qr-img">
+                  <div class="donate-qr-label">Scan to Pay</div>
                 </div>
-                <div class="donate-upi-box mt-3">
-                  <span class="donate-upi-label">UPI ID</span>
-                  <span class="donate-upi-id">hanifkasu-1@okhdfcbank</span>
+                <div class="donate-upi-block mt-3">
+                  <div class="donate-upi-label-text">UPI ID</div>
+                  <div class="donate-upi-id-row">
+                    <span class="donate-upi-id-val" id="upiId">hanifkasu-1@okhdfcbank</span>
+                    <button class="donate-copy-btn" onclick="copyText('upiId', this)" title="Copy">
+                      <i class="ion-ios-copy"></i>
+                    </button>
+                  </div>
                 </div>
-                <p class="donate-bank-name mt-2">Banking Name: <strong>United Welfare Foundation</strong></p>
-                <div class="donate-badge-row mt-3 justify-content-center">
-                  <span class="donate-badge-warning">Local Indian Bank Transfers only</span>
-                  <span class="donate-badge-blue">Tax Exemption Certified — Forms 80G &amp; 12A</span>
+                <p class="donate-bname mt-2">Banking Name: <strong>United Welfare Foundation</strong></p>
+                <div class="donate-note-row justify-content-center">
+                  <span class="donate-note-red"><i class="ion-ios-alert"></i> Local Indian Bank Transfers only</span>
                 </div>
               </div>
             </div>
@@ -139,6 +214,18 @@
         </div>
       </div>
     </section>
+
+    <script>
+    function copyText(id, btn) {
+      var text = document.getElementById(id).innerText;
+      navigator.clipboard.writeText(text).then(function() {
+        btn.innerHTML = '<i class="ion-ios-checkmark"></i>';
+        btn.style.background = '#1a73e8';
+        btn.style.color = '#fff';
+        setTimeout(function(){ btn.innerHTML = '<i class="ion-ios-copy"></i>'; btn.style.background=''; btn.style.color=''; }, 2000);
+      });
+    }
+    </script>
 
     <footer class="ftco-footer ftco-section img">
     	<div class="overlay"></div>

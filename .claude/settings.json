@@ -8,7 +8,8 @@
       "Bash(sed -i '' 's/rgba\\(120, 213, 239,/rgba\\(26, 115, 232,/g' /Users/kaif/Downloads/uwf-site/css/style.css)",
       "Bash(sed -i '' 's/#f97f51/#1a73e8/g' /Users/kaif/Downloads/uwf-site/css/style.css)",
       "Bash(sed -i '' 's/#e55a2b/#1565c0/g' /Users/kaif/Downloads/uwf-site/css/style.css)",
-      "Bash(sed -i '' 's/#fff3ee/#e8f0fe/g' /Users/kaif/Downloads/uwf-site/css/style.css)"
+      "Bash(sed -i '' 's/#fff3ee/#e8f0fe/g' /Users/kaif/Downloads/uwf-site/css/style.css)",
+      "Bash(python3 -)"
     ]
   }
 }
