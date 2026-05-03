@@ -7502,11 +7502,11 @@ h1, h2, h3, h4, h5,
     background: #000; }
 
 .slider-text {
-  color: #fff;
+  color: #000;
   height: 700px; }
   .slider-text h1 {
     font-size: 60px;
-    color: #fff;
+    color: #000;
     line-height: 1.2;
     font-weight: 400; }
     @media (max-width: 991.98px) {
@@ -7516,12 +7516,12 @@ h1, h2, h3, h4, h5,
     font-size: 20px;
     line-height: 1.5;
     font-weight: 300;
-    color: rgba(255, 255, 255, 0.8); }
+    color: rgba(0, 0, 0, 0.8); }
     .slider-text p a {
-      color: #fff;
-      border-bottom: 2px solid rgba(255, 255, 255, 0.3); }
+      color: #000;
+      border-bottom: 2px solid rgba(0, 0, 0, 0.3); }
       .slider-text p a span {
-        color: #fff; }
+        color: #000; }
   .slider-text .breadcrumbs {
     text-transform: uppercase;
     font-size: 13px;
@@ -7529,16 +7529,16 @@ h1, h2, h3, h4, h5,
     margin-bottom: 20px;
     z-index: 99; }
     .slider-text .breadcrumbs span {
-      border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-      color: rgba(255, 255, 255, 0.7); }
+      border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+      color: rgba(0, 0, 0, 0.7); }
       .slider-text .breadcrumbs span a {
-        color: #fff; }
+        color: #000; }
   .slider-text .bread {
     font-weight: 400 !important; }
   .slider-text .btn-outline-white {
-    border: 1px solid rgba(255, 255, 255, 0.4) !important; }
+    border: 1px solid rgba(0, 0, 0, 0.5) !important; }
     .slider-text .btn-outline-white span {
-      color: #fff; }
+      color: #000; }
   .slider-text .btn-outline-white:hover span {
     color: rgb(0, 90, 170); }
   .slider-text .hero-watch-btn {
@@ -7683,18 +7683,18 @@ h1, h2, h3, h4, h5,
       background: #000;
       color: #fff; }
     .btn.btn-white.btn-outline-white {
-      border-color: rgba(255, 255, 255, 0.8);
+      border-color: rgba(0, 0, 0, 0.6);
       background: none;
       -webkit-border-radius: 0;
       -moz-border-radius: 0;
       -ms-border-radius: 0;
       border-radius: 0;
       border-width: 1px;
-      color: #fff; }
+      color: #000; }
       .btn.btn-white.btn-outline-white:hover, .btn.btn-white.btn-outline-white:focus, .btn.btn-white.btn-outline-white:active {
-        background: #fff;
-        border-color: #fff;
-        color: rgb(0, 90, 170); }
+        background: #000;
+        border-color: #000;
+        color: #fff; }
   .btn.btn-outline-black {
     border-color: black;
     background: none;
