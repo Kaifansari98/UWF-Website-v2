@@ -7542,7 +7542,12 @@ h1, h2, h3, h4, h5,
   .slider-text .btn-outline-white:hover span {
     color: rgb(0, 90, 170); }
   .slider-text .hero-watch-btn {
-    border-radius: 999px; }
+    border-radius: 999px;
+    color: #000 !important;
+    border-color: rgba(0, 0, 0, 0.5) !important; }
+  .slider-text .hero-watch-btn span,
+  .slider-text .hero-watch-btn * {
+    color: #000 !important; }
 
 .owl-carousel {
   position: relative; }
